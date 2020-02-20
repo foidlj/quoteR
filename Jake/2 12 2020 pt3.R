@@ -2,7 +2,6 @@ library(httr)
 library(jsonlite)
 ##
 ## Making a function so that queries can be easy to put in
-library(httr)
 fav_api <- function(path) {
   url <- modify_url("https://favqs.com/api", path = path)
 
@@ -34,13 +33,3 @@ print.fav_api <- function(x, ...) {
 # Error in simplify(obj, simplifyVector = simplifyVector, simplifyDataFrame = simplifyDataFrame,  :
 #                     unused argument (as = text)
 fav_api("/api/qotd")
-
-
-
-
-
-############################################################
-# Moved from api to bib -> tibble, still can't figure api out
-# this package converts bib to tibble
-library(bib2df)
-
