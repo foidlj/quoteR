@@ -1,12 +1,13 @@
 pacman::p_load(tidyverse, httr, usethis, glue)
 
+## This takes you to the r environment where you can set system variables
 #usethis::edit_r_environ()
 
 Sys.getenv("FAVQS_PAT")
 
 Authorization: Token token="YOUR_APP_TOKEN"
 
-
+## Tested if the environemtn worked
 FAVQS_PAT
 FAVQS_USER
 FAVQS_LOGIN
