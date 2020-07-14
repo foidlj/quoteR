@@ -7,15 +7,11 @@ bob <- httr::GET(url = glue(main_url, THING = "quotes"),
 content(bob)
 
 ## Stores the author and quote
-author <- ""
 quote <- ""
-complete <- c("'"quote"' ","'-"author"'")
+author <- ""
+complete <- c(quote," - ",author)
 diction <- list()
 
-## Practice function
-jake <- function():
-  for line in bob:
-    paste("The year is", year))
 
 ## This function will create a template for user quotes
 ## Right now we need a yaml

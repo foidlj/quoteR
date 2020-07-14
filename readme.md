@@ -23,3 +23,7 @@ https://cran.r-project.org/web/packages/httr/vignettes/api-packages.html
 
 
 Please note that this project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
+
+### Trello
+
+[This site](https://trello.com/b/6szU3XhH/quoter) will keep track of tasks completed/need to be done.
