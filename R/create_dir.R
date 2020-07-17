@@ -2,8 +2,7 @@
 # that there's only 1 RMD file within the file. Also should make a user friendly way to name
 # rmd. First/last name? Simple name?
 create_stash <- function(){
-  getwd()
-  setwd("../QuoteR/R")
+  #setwd("../QuoteR/R")
   # Prompts user to create the quote directory with their name
   name <- readline(prompt = "Enter your name: ")
   namermd <- paste0(name,".Rmd")
