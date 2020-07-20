@@ -7,7 +7,7 @@ get_credentials <- function(){
   Sys.setenv("FAVQS_USERNAME" = str(FAVQS_USERNAME))
   Sys.setenv("FAVQS_PASSWORD" = str(FAVQS_PASSWORD))
   Sys.setenv("FAVQS_API" = FAVQS_API)
+  # Something needs to check that these are correct credentials in FAVQS
 }
-# Do we need API key?
 # If these variables are in the system environment, we won't need to do return anything
 # or this again.

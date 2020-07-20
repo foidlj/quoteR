@@ -16,3 +16,4 @@ create_stash <- function(){
   stash <- rmarkdown::render(name,"html_document")
   return (stash)
 }
+
